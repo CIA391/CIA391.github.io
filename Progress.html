@@ -3,56 +3,68 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Deployment Test</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="unsemantic.css">
+    <link rel="stylesheet" href="layout.css">
 </head>
 
-<body>
+<body class="grid-container">
+<footer class="prefix-10 suffix-10">
+    <!--Logo-->
+    <header>
+        <div id="Logo" class="grid-30">
+            <!--<img src="Gallery/Chris.jpg" alt="chris.jpg" height="150" width="250">-->
+            <img src="Gallery/Chris.jpg" alt="chris.jpg" height="150" width="150">
+        </div>
 
-<!--Logo-->
-<div id="Logo">
-    <img src="Gallery/Chris.jpg" alt="chris.jpg" height="150" width="250">
-</div>
+        <!--Page Name-->
+        <nav class="quickfix grid-70">
+            <div id="Pagename">
+                <p>Christopher Aiken Portfolio HUB</p>
+            </div>
 
-<!--Page Name-->
-<div id="Pagename">
-    <p>Christopher Aiken Portfolio HUB</p>
-</div>
+            <!--Homepage -->
+            <div id="CV">
+                <a href="index.html">Homepage</a>
+            </div>
 
-<!--Homepage -->
-<div id="CV">
-    <a href="index.html">Homepage</a>
-</div>
+            <!--CVpage -->
+            <div id="Completed">
+                <a href="CVpage.html">CV Page</a>
+            </div>
 
-<!--CVpage -->
-<div id="Completed">
-    <a href="CVpage.html">CV Page</a>
-</div>
+            <!--Completed work -->
+            <div id="Progress">
+                <a href="Completed.html">Completed Work</a>
+            </div>
 
-<!--Completed work -->
-<div id="Progress">
-    <a href="Completed.html">Completed Work</a>
-</div>
+            <!--Contact me -->
+            <div id="Contact">
+                <a href="Contact.html">Contact Me</a>
+            </div>
 
-<!--Contact me -->
-<div id="Contact">
-    <a href="Contact.html">Contact Me</a>
-</div>
+        </nav>
+    </header>
+    <!--Body Text-->
+    <main class="quickfix">
+    <div id="BodyText">
+        <p>
+            Welcome to my HUB for work I do in University and outside University.<br>
+            Please view around the site to see what work I have done, and how to contact me.</p>
+    </div>
 
-<!--Body Text-->
-<div id="BodyText">
-    <p>
-        Welcome to my HUB for work I do in University and outside University.<br>
-        Please view around the site to see what work I have done, and how to contact me.</p>
-</div>
+    <!--Banner Image-->
+    <div id="BannerImage">
+        <img src="Gallery/Chris.jpg" alt="Chris.jpg">
+    </div>
+    </main>
 
-<!--Banner Image-->
-<div id="BannerImage">
-    <img src= "Gallery/Chris.jpg" alt="Chris.jpg">
-</div>
 
-<div id="footer">
-    <address>Made: 29 June 2016<br>
-        Website by Chris Aiken.</address>
+    <footer>
+        <address>Made: 29 June 2016<br>
+            Website by Chris Aiken.
+        </address>
+    </footer>
+
 </div>
 </body>
 </html>
